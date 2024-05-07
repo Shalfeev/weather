@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+body {
+  height: 100vh;
+  background-color: #06283d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp {
+  width: 50%;
+}
+.weatherText{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.btn img {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+.cloud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cloud img {
+  width: 100px;
+  height: auto;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+  transition: 0.6s ease-out;
+}
+.location img {
+  margin-right: 20px;
+  width: 20px;
+  height: auto;
+}
+.temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.water img {
+  width: 90px;
+}
+.windImg img {
+  width: 90px;
+}
+.details {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 55%;
+}

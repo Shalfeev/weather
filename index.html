@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/cloud_40534.ico" type="cloud_40534" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchBox">
+        <i class="location"
+          ><img src="/img/352521_location_on_icon.png" alt=""
+        /></i>
+        <input class="inp" type="text" placeholder="Введите ваш город" />
+        <button class="btn">
+          <img src="/img/3844432_magnifier_search_zoom_icon.png" alt="" />
+        </button>
+      </div>
+      <div class="weather">
+        <div class="weatgerImage">
+          <i class="cloud"
+            ><img
+              class="weatherIcon"
+              src="/img/2849803_cloudy_cloud_weather_multimedia_icon.png"
+              alt=""
+          /></i>
+          <h4 class="weatherText"></h4>
+        </div>
+        <h1 class="temp">?&deg;</h1>
+        <h2 class="city">Введите город</h2>
+        <div class="details">
+          <div class="col">
+            <i class="water"
+              ><img
+                src="/img/2682807_drop_high_humidity_percentage_precipitation_icon.png"
+                alt=""
+            /></i>
+            <div>
+              <p>Влажность</p>
+              <p class="humidity">?%</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <i class="windImg"
+              ><img src="/img/315686_wind_icon.png" alt=""
+            /></i>
+            <div>
+              <p>Скорость ветра</p>
+              <p class="wind">? км/ч</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
